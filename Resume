@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templine</title>
+    <style>
+        * {
+            /* margin: 0; */
+            box-sizing: border-box;
+            background-color: whitesmoke;
+        }
+
+        .main {
+            margin: auto;
+            width: 70%;
+            height: 1000px;
+            background-color: grey;
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .up {
+            width: 100%;
+            height: 250px;
+            background-color: yellowgreen;
+        }
+
+        .lo {
+            width: 100%;
+            height: 750px;
+            background-color: wheat;
+        }
+
+        .up1 {
+            width: 100%;
+            height: 600px;
+            background-color: yellow;
+        }
+
+        .upl {
+            width: 50%;
+            height: 600px;
+            background-color: darkolivegreen;
+            float: left;
+        }
+
+        .upt {
+            width: 100%;
+            height: 200px;
+            background-color: violet;
+        }
+
+        .upt1 {
+            width: 100%;
+            height: 40px;
+            background-color: white;
+        }
+
+        .upt2 {
+            width: 100%;
+            height: 40px;
+            background-color: white;
+        }
+
+        .upt2l {
+            width: 35%;
+            height: 40px;
+            background-color: white;
+            float: left;
+        }
+
+        .upt2r {
+            width: 65%;
+            height: 40px;
+            background-color: white;
+            float: right;
+        }
+
+        .upt3 {
+            width: 100%;
+            height: 40px;
+            background-color: whitesmoke;
+        }
+
+
+        .upt4 {
+            width: 100%;
+            height: 40px;
+            background-color: white;
+        }
+
+
+        .upt5 {
+            width: 100%;
+            height: 40px;
+            background-color: white;
+        }
+
+        .upb {
+            width: 100%;
+            height: 400px;
+            background-color: chartreuse;
+        }
+
+        .upbl {
+            width: 30%;
+            height: 400px;
+            background-color: rosybrown;
+            float: left;
+        }
+
+        .upblt {
+            width: 100%;
+            height: 100px;
+            background-color: mediumslateblue;
+        }
+
+        .upblm {
+            width: 100%;
+            height: 150px;
+            background-color: yellowgreen;
+        }
+
+        .upblb {
+            width: 100%;
+            height: 150px;
+            background-color: chartreuse;
+        }
+
+        .upbr {
+            width: 70%;
+            height: 400px;
+            background-color: khaki;
+            float: right;
+        }
+
+        .upbrt {
+            width: 100%;
+            height: 100px;
+            background-color: tomato;
+        }
+
+        .upbrm {
+            width: 100%;
+            height: 150px;
+            background-color: mediumaquamarine;
+        }
+
+        .upbrl {
+            width: 100%;
+            height: 150px;
+            background-color: navajowhite;
+        }
+
+        .upbrc {
+            margin-left: 55%;
+            /* margin-top: 10px; */
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        .upbrc2 {
+            margin-left: 40%;
+            /* margin-top: 10px; */
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        .upr {
+            width: 50%;
+            height: 600px;
+            background-color: cornflowerblue;
+            float: right;
+        }
+
+        .uprl {
+            width: 30%;
+            height: 600px;
+            background-color: rosybrown;
+            float: left;
+        }
+
+        .uprr {
+            width: 70%;
+            height: 600px;
+            background-color: blueviolet;
+            float: right;
+        }
+
+        .up2 {
+            width: 100%;
+            height: 150px;
+            background-color: gray;
+        }
+
+        .up2t {
+            width: 100%;
+            height: 75px;
+            background-color: yellow;
+        }
+
+        .up2tl {
+            width: 20%;
+            height: 75px;
+            background-color: violet;
+            float: left;
+        }
+
+        .up2tlc {
+            margin-left: 40%;
+            margin-top: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        .up2tr {
+            width: 80%;
+            height: 75px;
+            background-color: white;
+            float: right;
+        }
+
+        .up2b {
+            width: 100%;
+            height: 75px;
+            background-color: yellowgreen;
+        }
+
+        .cir {
+            margin-left: 10%;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: brown;
+        }
+
+        .rec {
+            top: 20px;
+            left: 50%;
+            width: 40%;
+            height: 150px;
+            background-color: darkgoldenrod;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="up">
+            <div class="cir">
+                <img src="/C8D6F7EB-B9A2-45F9-855A-B30300776E65.JPEG" alt="dp" width="250px" height="250px"
+                    style="border-radius: 50%;">
+            </div>
+            <div class="rec">
+                <h1 style="font-size: 35px; color: rgb(75, 226, 62);">
+                    Rohit
+                </h1>
+                <h1 style="font-size: 35px; color: rgb(75, 226, 62);">
+                    Pal
+                </h1>
+            </div>
+        </div>
+        <div class="lo">
+            <div class="up1">
+                <div class="upl">
+                    <div class="upt">
+                        <div class="upt1"></div>
+                        <div class="upt2">
+                            <div class="upt2l">
+                                <img src="/call.png" alt="call" height="20px" width="20px"
+                                    style="margin-left: 80%; margin-top: 4px;">
+                            </div>
+                            <div class="upt2r">
+                                +91**********
+                            </div>
+                        </div>
+                        <div class="upt3">
+                            <div class="upt2l">
+                                <img src="/msg1.png" alt="msg" height="20px" width="20px"
+                                    style="margin-left: 80%; margin-top: 4px;">
+                            </div>
+                            <div class="upt2r">
+                                xyz@gmail.com
+                            </div>
+                        </div>
+                        <div class="upt4">
+                            <div class="upt2l">
+                                <img src="/net.png" alt="net" height="20px" width="20px"
+                                    style="margin-left: 80%; margin-top: 4px;">
+                            </div>
+                            <div class="upt2r">
+                                codewithrohitpal.com
+                            </div>
+                        </div>
+                        <div class="upt5"></div>
+                    </div>
+                    <div class="upb">
+                        <div class="upbl">
+                            <div class="upblt">
+                                <div class="upbrc"></div>
+                            </div>
+                            <div class="upblm">
+                                <div class="upbrc"></div>
+                            </div>
+                            <div class="upblb">
+                                <div class="upbrc"></div>
+                            </div>
+                        </div>
+                        <div class="upbr">
+                            <div class="upbrt">
+                                EDUCATION
+                            </div>
+                            <div class="upbrm">
+                                University <br>
+                                CCSU (2018-2021) <br>
+                                BCA <br>
+                                Computer Application
+                            </div>
+                            <div class="upbrl">
+                                University <br>
+                                CCSU (2018-2021) <br>
+                                BCA <br>
+                                Computer Application
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="upr">
+                    <div class="uprl">
+                        <div class="upblt">
+                            <div class="upbrc2"></div>
+                        </div>
+                        <div class="upblt">
+                            <div class="upbrc2"></div>
+                        </div>
+                        <div class="upblt">
+                            <div class="upbrc2"></div>
+                        </div>
+                        <div class="upblt">
+                            <div class="upbrc2"></div>
+                        </div>
+                        <div class="upblt">
+                            <div class="upbrc2"></div>
+                        </div>
+                        <div class="upblt">
+                            <div class="upbrc2"></div>
+                        </div>
+                    </div>
+                    <div class="uprr">
+                        <div class="upbrt">
+                            EDUCATION
+                        </div>
+                        <div class="upbrt">
+                            EDUCATION
+                        </div>
+                        <div class="upbrt">
+                            EDUCATION
+                        </div>
+                        <div class="upbrt">
+                            EDUCATION
+                        </div>
+                        <div class="upbrt">
+                            EDUCATION
+                        </div>
+                        <div class="upbrt">
+                            EDUCATION
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="up2">
+                <div class="up2t">
+                    <div class="up2tl">
+                        <div class="up2tlc"></div>
+                    </div>
+                    <div class="up2tr">
+                        <h4 style="margin-left: 10px; color: crimson; background-color: white;">Professional Skills</h4>
+                        <h5 style="margin-left: 10px; color: crimson; background-color: white;">WebDeveloper,
+                            AdobePhotoshop, </h5>
+                    </div>
+                </div>
+                <div class="up2b">
+                    <div class="up2tl">
+                        <div class="up2tlc"></div>
+                    </div>
+                    <div class="up2tr">
+                        <h4 style="margin-left: 10px; color: crimson; background-color: white;">Languages</h4>
+                        <h5 style="margin-left: 10px; color: crimson; background-color: white;">English, Hindi</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
