@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            width: 100%;
+            height: 50px;
+            background-color: burlywood;
+            /* float: left; */
+            /* position: fixed; */
+            /* top: 0px; */
+        }
+
+        .h1 {
+            width: 12%;
+            height: 50px;
+            background-color: white;
+            float: left;
+        }
+
+        .h2 {
+            width: 33%;
+            height: 50px;
+            background-color: white;
+            float: left;
+        }
+
+        .h3 {
+            width: 33%;
+            height: 50px;
+            background-color: white;
+            float: left;
+        }
+
+        .h4 {
+            width: 22%;
+            height: 50px;
+            background-color: white;
+            float: left;
+        }
+
+        .mid {
+            width: 100%;
+            height: 720px;
+            background-color: wheat;
+            float: left;
+            /* position: relative; */
+            /* top: 100px; */
+        }
+
+        .d1 {
+            width: 10%;
+            height: 700px;
+            background-color: wheat;
+            float: left;
+        }
+
+        .d2 {
+            border-radius: 10px;
+            width: 10%;
+            height: 700px;
+            background-color: wheat;
+            float: right;
+        }
+
+        .d3 {
+            margin-top: 25px;
+            width: 53%;
+            height: 550px;
+            background-color: white;
+            float: left;
+            border-radius: 10px;
+
+        }
+
+        .d4 {
+            margin-top: 25px;
+            width: 23%;
+            height: 550px;
+            background-color: thistle;
+            float: right;
+            border-radius: 10px;
+        }
+
+        .mid1 {
+            width: 100%;
+            height: 150px;
+            background-color: white;
+            /* margin-top: 50px; */
+            position: relative;
+        }
+
+        .mid2 {
+            width: 100%;
+            height: 300px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .midinner {
+            margin-top: 11%;
+            margin-left: 3%;
+            width: 45%;
+            height: 60px;
+            border-radius: 20px;
+            background-color: thistle;
+            border: 2px solid black;
+
+        }
+
+        .midinner2 {
+            margin-top: -4.2%;
+            margin-right: 2%;
+            width: 23%;
+            height: 60px;
+            border-radius: 20px;
+            background-color: thistle;
+            border: 2px solid black;
+            float: right;
+            position: absolute;
+            margin-left: 25%;
+        }
+
+        h1 {
+            margin-top: 18%;
+            margin-left: 5%;
+        }
+
+        .open {
+            margin: auto;
+            margin-top: 10px;
+            margin-left: 5%;
+            height: 40px;
+            width: 80px;
+            border-radius: 50px;
+            background-color: white;
+            float: left;
+            border: 1px solid black;
+        }
+
+        .add {
+            margin: auto;
+            margin-top: 10px;
+            margin-left: 5%;
+            height: 40px;
+            width: 150px;
+            border: 1px solid black;
+            border-radius: 50px;
+            background-color: white;
+            float: left;
+        }
+
+        .more {
+            margin: auto;
+            margin-top: 10px;
+            margin-left: 5%;
+            height: 40px;
+            width: 80px;
+            border: 1px solid black;
+            border-radius: 50px;
+            background-color: white;
+            float: left;
+        }
+
+        .cir {
+            margin-left: 3%;
+            margin-top: -4%;
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            background-color: yellowgreen;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="h1">
+            <img src="/l logo.png" alt="" width="40px" height="40px"
+                style="float: right; margin-right: 10px; margin-top: 6px;">
+        </div>
+        <div class="h2">
+            <input type="search" name="search" placeholder="Search for Jobs, People, Post"
+                style="float: left; margin-left: 10px; margin-top: 15px;">
+            <img src="/download.png" alt="Home" width="40px" height="40px"
+                style="float: right; margin-right: 10px; margin-top: 6px;">
+        </div>
+        <div class=" h3">
+            <img src="/bags.png" alt="" width="40px" height="40px"
+                style="float: left; margin-left: 50px; margin-top: 6px;">
+            <img src="/msg.png" alt="" width="40px" height="40px"
+                style="float: left; margin-left: 30px; margin-top: 6px;">
+            <img src="/notif.jfif" alt="" width="40px" height="40px"
+                style="float: left; margin-left: 40px; margin-top: 6px;">
+            <img src="/notif.jfif" alt="Me" width="40px" height="40px"
+                style="float: left; margin-left: 50px; margin-top: 6px;">
+        </div>
+        <div class="h4"></div>
+    </div>
+    <div class="mid">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3">
+            <div class="mid1">
+                <img src="/b4.jpg" alt="banner" height="200px" width="100%" style="border-radius: 10px;">
+            </div>
+            <div class="cir">
+                <img src="/C8D6F7EB-B9A2-45F9-855A-B30300776E65.JPEG" alt="img" width="170px" height="170px"
+                    style="border-radius: 50%;">
+            </div>
+            <div class="mid2">
+                <!-- <div class="midinner"> -->
+                <h1>Rohit Pal</h1>
+                <h2 style="margin-left: 5%;">Front End Developer</h2>
+                <h4 style="margin-left: 5%;">Ghaziabad, Uttar Pradesh, India</h4>
+                <h5 style="margin-left: 5%;">68 Followers . 68 Connection</h5>
+                <!-- </div> -->
+                <div class="open">Open to</div>
+                <div class="add">Add Profile Section</div>
+                <div class="more">More</div>
+                <div class="midinner">
+                    <h4 style="margin-left: 10px; color: teal;">Open to work</h4>
+                    <h4 style="margin-left: 10px; color: teal;">WebDeveloper,WebDesigner,FrontEnd.</h4>
+                    <h4 style="margin-left: 10px; color: blue;">See All Details</h4>
+                    <div class="midinner2">
+                        <h4 style="margin-left: 10px; color: teal;">Find potential clients by showcasing the</h4>
+                        <h4 style="margin-left: 10px; color: teal;">services you provide</h4>
+                        <h4 style="margin-left: 10px; color: blue;">Get started</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d4"></div>
+    </div>
+</body>
+
+</html>
