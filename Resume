@@ -8,16 +8,16 @@
     <title>Templine</title>
     <style>
         * {
-            /* margin: 0; */
+            margin: 0;
             box-sizing: border-box;
-            background-color: whitesmoke;
+            background-color: mediumpurple;
         }
 
         .main {
             margin: auto;
             width: 70%;
             height: 1000px;
-            background-color: grey;
+            background-color: #F8F9F9;
             border-radius: 20px;
             position: relative;
         }
@@ -25,7 +25,7 @@
         .up {
             width: 100%;
             height: 250px;
-            background-color: yellowgreen;
+            background-color: #F8F9F9;
         }
 
         .lo {
@@ -37,20 +37,20 @@
         .up1 {
             width: 100%;
             height: 600px;
-            background-color: yellow;
+            background-color: #F8F9F9;
         }
 
         .upl {
             width: 50%;
             height: 600px;
-            background-color: darkolivegreen;
+            background-color: #F8F9F9;
             float: left;
         }
 
         .upt {
             width: 100%;
             height: 200px;
-            background-color: violet;
+            background-color: #F8F9F9;
         }
 
         .upt1 {
@@ -102,57 +102,57 @@
         .upb {
             width: 100%;
             height: 400px;
-            background-color: chartreuse;
+            background-color: #F8F9F9;
         }
 
         .upbl {
             width: 30%;
             height: 400px;
-            background-color: rosybrown;
+            background-color: #F8F9F9;
             float: left;
         }
 
         .upblt {
             width: 100%;
             height: 100px;
-            background-color: mediumslateblue;
+            background-color: #F8F9F9;
         }
 
         .upblm {
             width: 100%;
             height: 150px;
-            background-color: yellowgreen;
+            background-color: #F8F9F9;
         }
 
         .upblb {
             width: 100%;
             height: 150px;
-            background-color: chartreuse;
+            background-color: #F8F9F9;
         }
 
         .upbr {
             width: 70%;
             height: 400px;
-            background-color: khaki;
+            background-color: #F8F9F9;
             float: right;
         }
 
         .upbrt {
             width: 100%;
             height: 100px;
-            background-color: tomato;
+            background-color: #F8F9F9;
         }
 
         .upbrm {
             width: 100%;
             height: 150px;
-            background-color: mediumaquamarine;
+            background-color: #F8F9F9;
         }
 
         .upbrl {
             width: 100%;
             height: 150px;
-            background-color: navajowhite;
+            background-color: #F8F9F9;
         }
 
         .upbrc {
@@ -176,40 +176,40 @@
         .upr {
             width: 50%;
             height: 600px;
-            background-color: cornflowerblue;
+            background-color: #F8F9F9;
             float: right;
         }
 
         .uprl {
             width: 30%;
             height: 600px;
-            background-color: rosybrown;
+            background-color: #F8F9F9;
             float: left;
         }
 
         .uprr {
             width: 70%;
             height: 600px;
-            background-color: blueviolet;
+            background-color: #F8F9F9;
             float: right;
         }
 
         .up2 {
             width: 100%;
             height: 150px;
-            background-color: gray;
+            background-color: #F8F9F9;
         }
 
         .up2t {
             width: 100%;
             height: 75px;
-            background-color: yellow;
+            background-color: #F8F9F9;
         }
 
         .up2tl {
             width: 20%;
             height: 75px;
-            background-color: violet;
+            background-color: #F8F9F9;
             float: left;
         }
 
@@ -222,7 +222,26 @@
             border-radius: 50%;
         }
 
+        .up2tll {
+            margin-left: 67%;
+            /* margin-top: 10px; */
+            width: 5px;
+            height: 150px;
+            background-color: red;
+            border-radius: 5%;
+        }
+
+        .up2tlk {
+            margin-left: 52%;
+            /* margin-top: 10px; */
+            width: 5px;
+            height: 150px;
+            background-color: red;
+            border-radius: 5%;
+        }
+
         .up2tr {
+            font-size: 20px;
             width: 80%;
             height: 75px;
             background-color: white;
@@ -232,7 +251,7 @@
         .up2b {
             width: 100%;
             height: 75px;
-            background-color: yellowgreen;
+            background-color: #F8F9F9;
         }
 
         .cir {
@@ -241,15 +260,17 @@
             width: 250px;
             border-radius: 50%;
             position: absolute;
-            background-color: brown;
+            background-color: #F8F9F9;
         }
 
         .rec {
+            color: turquoise;
+            font-size: 70px;
             top: 20px;
             left: 50%;
             width: 40%;
             height: 150px;
-            background-color: darkgoldenrod;
+            background-color: #F8F9F9;
             position: absolute;
         }
     </style>
@@ -263,12 +284,15 @@
                     style="border-radius: 50%;">
             </div>
             <div class="rec">
-                <h1 style="font-size: 35px; color: rgb(75, 226, 62);">
+                <!-- <h1 style="font-size: 35px; color: rgb(75, 226, 62);">
                     Rohit
                 </h1>
                 <h1 style="font-size: 35px; color: rgb(75, 226, 62);">
                     Pal
-                </h1>
+                </h1> -->
+                Rohit
+                <br>
+                Pal
             </div>
         </div>
         <div class="lo">
@@ -308,13 +332,17 @@
                     <div class="upb">
                         <div class="upbl">
                             <div class="upblt">
+                                <!-- <div class="up2tll"></div> -->
                                 <div class="upbrc"></div>
+                                <div class="up2tll"></div>
                             </div>
                             <div class="upblm">
                                 <div class="upbrc"></div>
+                                <div class="up2tll"></div>
                             </div>
                             <div class="upblb">
                                 <div class="upbrc"></div>
+                                <div class="up2tll"></div>
                             </div>
                         </div>
                         <div class="upbr">
@@ -340,21 +368,27 @@
                     <div class="uprl">
                         <div class="upblt">
                             <div class="upbrc2"></div>
+                            <div class="up2tlk"></div>
                         </div>
                         <div class="upblt">
                             <div class="upbrc2"></div>
+                            <div class="up2tlk"></div>
                         </div>
                         <div class="upblt">
                             <div class="upbrc2"></div>
+                            <div class="up2tlk"></div>
                         </div>
                         <div class="upblt">
                             <div class="upbrc2"></div>
+                            <div class="up2tlk"></div>
                         </div>
                         <div class="upblt">
                             <div class="upbrc2"></div>
+                            <div class="up2tlk"></div>
                         </div>
                         <div class="upblt">
                             <div class="upbrc2"></div>
+                            <div class="up2tlk"></div>
                         </div>
                     </div>
                     <div class="uprr">
@@ -383,20 +417,28 @@
                 <div class="up2t">
                     <div class="up2tl">
                         <div class="up2tlc"></div>
+                        <!-- <div class="up2tll"></div> -->
                     </div>
                     <div class="up2tr">
-                        <h4 style="margin-left: 10px; color: crimson; background-color: white;">Professional Skills</h4>
-                        <h5 style="margin-left: 10px; color: crimson; background-color: white;">WebDeveloper,
-                            AdobePhotoshop, </h5>
+                        Professional Skills
+                        <br>
+                        WebDeveloper AdobePhotoshop
+                        <!-- <h4 style="margin-left: 10px; color: crimson; background-color: white;">Professional Skills</h4> -->
+                        <!-- <h5 style="margin-left: 10px; color: crimson; background-color: white;">WebDeveloper, -->
+                        <!-- AdobePhotoshop, </h5> -->
                     </div>
                 </div>
                 <div class="up2b">
                     <div class="up2tl">
+                        <!-- <div class="up2tll"></div> -->
                         <div class="up2tlc"></div>
                     </div>
                     <div class="up2tr">
-                        <h4 style="margin-left: 10px; color: crimson; background-color: white;">Languages</h4>
-                        <h5 style="margin-left: 10px; color: crimson; background-color: white;">English, Hindi</h5>
+                        Languages
+                        <br>
+                        Hindi, English
+                        <!-- <h4 style="margin-left: 10px; color: crimson; background-color: white;">Languages</h4> -->
+                        <!-- <h5 style="margin-left: 10px; color: crimson; background-color: white;">English, Hindi</h5> -->
                     </div>
                 </div>
             </div>
